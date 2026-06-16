@@ -14,13 +14,14 @@ services:
       - key: PYTHON_VERSION
         value: 3.11.0
 
-  - type: static
+  - type: web
     name: smart-fertilizer-frontend
+    runtime: static
     region: oregon
     plan: free
     rootDir: frontend
     buildCommand: npm install && npm run build
-    publishPath: dist
+    staticPublishPath: dist
     envVars:
       - key: VITE_API_URL
         value: https://smart-fertilizer-backend.onrender.com
