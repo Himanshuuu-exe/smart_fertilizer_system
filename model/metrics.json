@@ -1,0 +1,89 @@
+{
+  "best_model": "Random Forest",
+  "accuracy": 80.0,
+  "precision": 80.75,
+  "recall": 80.0,
+  "f1": 78.83,
+  "cv_accuracy": 79.23,
+  "all_models": {
+    "Random Forest": {
+      "accuracy": 80.0,
+      "precision": 80.75,
+      "recall": 80.0,
+      "f1": 78.83,
+      "cv_accuracy": 79.23
+    },
+    "Decision Tree": {
+      "accuracy": 73.86,
+      "precision": 74.47,
+      "recall": 73.86,
+      "f1": 73.83,
+      "cv_accuracy": 76.36
+    },
+    "KNN": {
+      "accuracy": 46.82,
+      "precision": 44.22,
+      "recall": 46.82,
+      "f1": 44.81,
+      "cv_accuracy": 48.5
+    },
+    "SVM": {
+      "accuracy": 57.95,
+      "precision": 57.83,
+      "recall": 57.95,
+      "f1": 57.05,
+      "cv_accuracy": 58.0
+    },
+    "Logistic Regression": {
+      "accuracy": 55.68,
+      "precision": 49.96,
+      "recall": 55.68,
+      "f1": 51.8,
+      "cv_accuracy": 53.05
+    }
+  },
+  "classes": [
+    "10-10-10",
+    "10-10-10+5S",
+    "10-26-26",
+    "14-35-14",
+    "17-17-17",
+    "20-20",
+    "28-28",
+    "DAP",
+    "NPK Mix",
+    "Potassium Chloride",
+    "Superphosphate",
+    "Urea"
+  ],
+  "soil_types": [
+    "Black",
+    "Clayey",
+    "Loamy",
+    "Red",
+    "Sandy"
+  ],
+  "crop_types": [
+    "Barley",
+    "Cotton",
+    "Ground Nuts",
+    "Maize",
+    "Millets",
+    "Oil seeds",
+    "Paddy",
+    "Pulses",
+    "Sugarcane",
+    "Tobacco",
+    "Wheat"
+  ],
+  "features": [
+    "Temperature",
+    "Humidity",
+    "Moisture",
+    "Soil Type Enc",
+    "Crop Type Enc",
+    "Nitrogen",
+    "Potassium",
+    "Phosphorous"
+  ]
+}

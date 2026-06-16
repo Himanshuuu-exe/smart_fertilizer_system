@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.env
+*.pkl
+*.egg-info/
+dist/
+build/
+.eggs/
+venv/
+env/
+.venv/
+
+# Node
+node_modules/
+frontend/dist/
+frontend/.cache/
+.npm
+
+# Assets (generated)
+assets/charts/*.png
+
+# Dataset (generated)
+dataset/fertilizer_data.csv
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+logs/
+
+# Render
+.render/
